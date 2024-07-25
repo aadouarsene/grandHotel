@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Grand Hohel</title>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <div class="logo">
+                <img src="./Images/logo.svg" alt="logo">
+                <h2>Grand Hotel</h2>
+            </div>
+            <ul class="nav__links">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="#blog"> Blog</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+            <div class="login">
+                <a href="#" class="btn">Login</a>
+                <a href="#" class="btn">Reserver</a>
+            </div>
+            <button class="nav__btn" id="menu__btn"><i class='bx bx-menu' ></i></button>
+            <button class="nav__btn" id="close__btn"><i class='bx bx-x' ></i></button>
+
+        </div>
+    </nav>
+
+    <header class="landing">
+        <div class="opac">
+            <div  class="container header__container">
+                <div>
+                    <h3>Salut ! Bienvenue aux</h3>
+                    <h1>Grand <span>Hotel</span></h1>
+                    <p>Votre destination ultime pour vos reservation des Salles de Fêtes, de Conférences et de Plaisir. <br>Nous sommes ravis de vous trouver la salle qui repondent à vos attentes</p>
+                </div>
+            </div>
+            <div class="infos">
+                <div class="top">
+                    <aside class="categorie"><h4>Chambre</h4></aside>
+                    <aside class="categorie"><h4>Appartement</h4></aside>
+                    <aside class="categorie"><h4>Hotel</h4></aside>
+                    <aside class="categorie"><h4>Villa</h4></aside>
+                    <aside class="categorie"><h4>VIP</h4></aside>
+                </div>
+                <div class="bottom">
+                    <aside class="localisation">
+                        <h4>Cotonou</h4>
+                        <p>Akpakpa Dodomey</p>
+                    </aside>
+                    <aside class="localisation">
+                        <h4>Calavi</h4>
+                        <p>Godomey Togoudo</p>
+                    </aside>
+                    <aside class="localisation">
+                        <h4>Porto-Novo</h4>
+                        <p>Akpro Misérété</p>
+                    </aside>
+                    <aside class="localisation">
+                        <h4>Parakou</h4>
+                        <p>Lyséé Kérékou</p>
+                    </aside>
+                    <aside class="localisation">
+                        <h4>Natitingou</h4>
+                        <p>Quatier Toubani</p>
+                    </aside>
+                </div>
+                <div class="search">
+                    <div class="content" >
+                        <input type="search" placeholder="Recherche" >
+                        <i class='bx bx-search' ></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--===================== END OF HEADER SECTION ====================-->
+
+
+    <section class="destinations" id="blog">
+        <div class="container destinations__container">
+            <div class="top">
+                <div class="left">
+                    <h2>Nos Grand Hotel les plus populaire</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere esse placeat et quasi iste, reiciendis incidunt fugit nobis cupiditate cumque? Veritatis incidunt qui deserunt?</p>
+                </div>
+                <div class="right">
+                    <span class="number">1</span>
+                    <span class="number">2</span>
+                    <span class="number">3</span>
+                    <span class="number">...</span>
+                    <span class="number">10</span>
+                </div>
+            </div>
+            <div class="destinations__content">
+                <article class="destination">
+                    <div class="destination__img">
+                        <img src="./Images/img-1.jpg" alt="Destination 1">
+                    </div>
+                    <div class="destination__infos">
+                        <h4>Hotel La Vie</h4>
+                        <div class="info">
+                            <div class="site">
+                                <i class='bx bx-map' ></i>
+                                <p>Cotonou</p>
+                            </div>
+                            <div class="client">
+                                <i class='bx bx-user' ></i>
+                                <p>9650 Clients</p>
+                            </div>
+                            <div class="rate">
+                                <i class='bx bx-star' ></i>
+                                <p>5.4</p>
+                            </div>
+                        </div>
+                        <div class="prix">
+                            <h4>Prix: 350000 FCFA</h4>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="destination">
+                    <div class="destination__img">
+                        <img src="./Images/img-2.jpg" alt="Destination 2">
+                    </div>
+                    <div class="destination__infos">
+                        <h4>Hotel La Douceur</h4>
+                        <div class="info">
+                            <div class="site">
+                                <i class='bx bx-map' ></i>
+                                <p>Porto-Novo</p>
+                            </div>
+                            <div class="client">
+                                <i class='bx bx-user' ></i>
+                                <p>6520 Clients</p>
+                            </div>
+                            <div class="rate">
+                                <i class='bx bx-star' ></i>
+                                <p>4.6</p>
+                            </div>
+                        </div>
+                        <div class="prix">
+                            <h4>Prix: 285000 FCFA</h4>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="destination">
+                    <div class="destination__img">
+                        <img src="./Images/img-3.jpg" alt="Destination 3">
+                    </div>
+                    <div class="destination__infos">
+                        <h4>Hotel Etoile</h4>
+                        <div class="info">
+                            <div class="site">
+                                <i class='bx bx-map' ></i>
+                                <p>Cotonou</p>
+                            </div>
+                            <div class="client">
+                                <i class='bx bx-user' ></i>
+                                <p>9883 Clients</p>
+                            </div>
+                            <div class="rate">
+                                <i class='bx bx-star' ></i>
+                                <p>5.4</p>
+                            </div>
+                        </div>
+                        <div class="prix">
+                            <h4>Prix: 450000 FCFA</h4>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="destination">
+                    <div class="destination__img">
+                        <img src="./Images/img-4.jpg" alt="Destination 4">
+                    </div>
+                    <div class="destination__infos">
+                        <h4>Hotel Wassé Vivi</h4>
+                        <div class="info">
+                            <div class="site">
+                                <i class='bx bx-map' ></i>
+                                <p>Calavi</p>
+                            </div>
+                            <div class="client">
+                                <i class='bx bx-user' ></i>
+                                <p>5600 Clients</p>
+                            </div>
+                            <div class="rate">
+                                <i class='bx bx-star' ></i>
+                                <p>5.4</p>
+                            </div>
+                        </div>
+                        <div class="prix">
+                            <h4>Prix: 260000 FCFA</h4>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="destination">
+                    <div class="destination__img">
+                        <img src="./Images/img-5.jpg" alt="Destination 5">
+                    </div>
+                    <div class="destination__infos">
+                        <h4>Hotel Badou</h4>
+                        <div class="info">
+                            <div class="site">
+                                <i class='bx bx-map' ></i>
+                                <p>Parakou</p>
+                            </div>
+                            <div class="client">
+                                <i class='bx bx-user' ></i>
+                                <p>1200 Clients</p>
+                            </div>
+                            <div class="rate">
+                                <i class='bx bx-star' ></i>
+                                <p>4.5</p>
+                            </div>
+                        </div>
+                        <div class="prix">
+                            <h4>Prix: 250000 FCFA</h4>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="destination">
+                    <div class="destination__img">
+                        <img src="./Images/img-6.jpg" alt="Destination 6">
+                    </div>
+                    <div class="destination__infos">
+                        <h4>Hotel Wa Gbassa</h4>
+                        <div class="info">
+                            <div class="site">
+                                <i class='bx bx-map' ></i>
+                                <p>Abomey</p>
+                            </div>
+                            <div class="client">
+                                <i class='bx bx-user' ></i>
+                                <p>670 Clients</p>
+                            </div>
+                            <div class="rate">
+                                <i class='bx bx-star' ></i>
+                                <p>4.2</p>
+                            </div>
+                        </div>
+                        <div class="prix">
+                            <h4>Prix: 170000 FCFA</h4>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="destination">
+                    <div class="destination__img">
+                        <img src="./Images/img-1.jpg" alt="Destination 7">
+                    </div>
+                    <div class="destination__infos">
+                        <h4>Hotel Etudiant</h4>
+                        <div class="info">
+                            <div class="site">
+                                <i class='bx bx-map' ></i>
+                                <p>Calavi</p>
+                            </div>
+                            <div class="client">
+                                <i class='bx bx-user' ></i>
+                                <p>10520 Clients</p>
+                            </div>
+                            <div class="rate">
+                                <i class='bx bx-star' ></i>
+                                <p>6.4</p>
+                            </div>
+                        </div>
+                        <div class="prix">
+                            <h4>Prix: 275000 FCFA</h4>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="destination">
+                    <div class="destination__img">
+                        <img src="./Images/img-2.jpg" alt="Destination 8">
+                    </div>
+                    <div class="destination__infos">
+                        <h4>Hotel Ganhi</h4>
+                        <div class="info">
+                            <div class="site">
+                                <i class='bx bx-map' ></i>
+                                <p>Cotonou</p>
+                            </div>
+                            <div class="client">
+                                <i class='bx bx-user' ></i>
+                                <p>1243 Clients</p>
+                            </div>
+                            <div class="rate">
+                                <i class='bx bx-star' ></i>
+                                <p>4.4</p>
+                            </div>
+                        </div>
+                        <div class="prix">
+                            <h4>Prix: 290000 FCFA</h4>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!----========================= END OF DESTINATION SECTION =======================-->
+
+    <section class="touristiques" id="faq">
+        <div class="container touristique__container">
+            <div class="head">
+                <h2>Quelques de nos Sites Touristiques</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, fuga labore rerum velit expedita ipsa voluptas maxime in corporis enim?</p>
+            </div>
+
+            <div class="touristiques__content">
+                <div class="touristique__1">
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-1.jpg" alt="Site Touristique 1">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-2.jpg" alt="Site Touristique 2">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-3.jpg" alt="Site Touristique 3">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-4.jpg" alt="Site Touristique 4">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-5.jpg" alt="Site Touristique 5">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-6.jpg" alt="Site Touristique 6">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-7.jpg" alt="Site Touristique 7">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="touristique__2">
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-1.jpg" alt="Site Touristique 1">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-2.jpg" alt="Site Touristique 2">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-3.jpg" alt="Site Touristique 3">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-4.jpg" alt="Site Touristique 4">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-5.jpg" alt="Site Touristique 5">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                    <article class="touristique">
+                        <div class="touristique__img">
+                            <img src="./Images/img-6.jpg" alt="Site Touristique 6">
+                        </div>
+                        <div class="touristique__infos">
+                            <img src="./Images/epingle.png">
+                            <h4>Tanougou</h4>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!---==================== END OF TOURISTIQUE =================-->
+
+
+    <section class="testimonials">
+        <div class="container testimonials__container">
+            <h2>Quelques Témoignages de nos Clients</h2>
+            <div class="testimonials__content">
+                <article class="testimonial">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum unde molestiae sapiente mollitia, architecto saepe iure perferendis ratione accusantium illo atque, necessitatibus iste blanditiis fuga! Quam voluptas est maxime optio?.</p>
+                    <div class="testimonial__info">
+                        <div class="avatar">
+                            <img src="./Images/user.jpg">
+                        </div>
+                        <h4>Abdoul Kante</h4>
+                    </div>
+                </article>
+
+
+                <article class="testimonial">
+                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, alias doloribus dolor incidunt eius molestias consequatur. Dignissimos, eveniet quidem inventore cupiditate placeat quos sit illo quasi. Optio explicabo ea ex. "</p>
+                    <div class="testimonial__info">
+                        <div class="avatar">
+                            <img src="./Images/user1.jpg">
+                        </div>
+                        <h4>Diana Daina</h4>
+                    </div>
+                </article>
+
+                <article class="testimonial">
+                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos aspernatur enim nesciunt veritatis in necessitatibus, explicabo dolorum ipsum nostrum. Soluta enim aspernatur, porro esse inventore maxime voluptatum dolores obcaecati sequi? "</p>
+                    <div class="testimonial__info">
+                        <div class="avatar">
+                            <img src="./Images/user2.jpg">
+                        </div>
+                        <h4>Samuel Kodou</h4>
+                    </div>
+                </article>
+
+                <article class="testimonial">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed alias atque neque, consequatur quia laudantium perferendis voluptate in laborum optio, quidem nesciunt porro nulla aperiam? Minima voluptate delectus consectetur perspiciatis. "</p>
+                    <div class="testimonial__info">
+                        <div class="avatar">
+                            <img src="./Images/user3.jpg">
+                        </div>
+                        <h4>Doriane Alley</h4>
+                    </div>
+                </article>
+                
+            </div>
+
+            <div class="evolution">
+                <div class="left ">
+                    <i class='bx bx-left-arrow-alt' ></i>
+                    <h5>Précédent</h5>
+                </div>
+                <div class="middle">
+                    <span class="number">1</span>
+                    <span class="number">2</span>
+                    <span class="number">3</span>
+                    <span class="number">...</span>
+                    <span class="number">22</span>
+                </div>
+                <div class="right ">
+                    <h5>Suivant</h5>
+                    <i class='bx bx-right-arrow-alt' ></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <h2>Nous Contactez</h2>
+                <ul class="contact">
+                    <li>
+                        <i class='bx bxs-phone-call' ></i>
+                        <h4>+229 5 59 47 55</h4>
+                    </li>
+                    <li>
+                        <i class='bx bxs-envelope' ></i>
+                        <h4>akpahoundjoabraham@gmail.com</h4>
+                    </li>
+                    <li>
+                        <i class='bx bx-map' ></i>
+                        <h4>Bénin, Calavi</h4>
+                    </li>
+                </ul>
+                <ul class="contact__socials">
+                    <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-linkedin' ></i></a></li>
+                </ul>
+            </div>
+
+            <div class="footer__2">
+                <h2>Liens </h2>
+                <ul class="footer__link">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h2>Confidantialité</h2>
+                <ul class="policy">
+                    <li>Police de confidentialité</li>
+                    <li>Termes & Conditions</li>
+                    <li>Politique de Rembrousement</li>
+                    <li>Aides</li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h2>Informations</h2>
+                <ul class="informations">
+                    <li>Appartement</li>
+                    <li>Hotel</li>
+                    <li>Villa</li>
+                    <li>Salles des Fêtes</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <small>Copyright &copy; Tout droit réservé | Réalisé par Abraham Akpahoundjo</small>
+    </div>
+</body>
+</html>
